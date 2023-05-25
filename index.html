@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshay - Developer Portfolio </title>
+    <!-- todo Custom Css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Lakshay's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Showcase</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <main>
+            <!-- todod -> First part -->
+            <section class="firstSection">
+                <div class="leftSection">Hi, My name is <span class="purple">Lakshay</span>
+                    <div>
+                        & I'm a Passionate <span class="purple" id="element"></span>
+                    </div>
+                </div>
+                <div class="rightSection"><img src="bg.png" alt=""></div>
+            </section>
+            <hr>
+            <!-- todod -> Seconds part -->
+            <section class="secondSection">
+                <span class="text-grey">What I Have Done So Far</span>
+                <h1>Work Experience</h1>
+
+                <div class="horizontal-line">
+                    <div class="vertical-line">
+                        <div class="vertical-top"><img src="bg.png" alt=""></div>
+                        <div class="vertical-title">Web Developer</div>
+                        <div class="vertical-desc text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eligendi accusamus, quos minima consequuntur ipsa sint hic. Natus aspernatur, eligendi autem
+                            earum pariatur quidem?</div>
+                    </div>
+                    <div class="vertical-line">
+                        <div class="vertical-top"><img src="bg.png" alt=""></div>
+                        <div class="vertical-title">Web Developer</div>
+                        <div class="vertical-desc text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eligendi accusamus, quos minima consequuntur ipsa sint hic. Natus aspernatur, eligendi autem
+                            earum pariatur quidem?</div>
+                    </div>
+                    <div class="vertical-line">
+                        <div class="vertical-top"><img src="bg.png" alt=""></div>
+                        <div class="vertical-title">Web Developer</div>
+                        <div class="vertical-desc text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eligendi accusamus, quos minima consequuntur ipsa sint hic. Natus aspernatur, eligendi autem
+                            earum pariatur quidem?</div>
+                    </div>
+                    <div class="vertical-line">
+                        <div class="vertical-top"><img src="bg.png" alt=""></div>
+                        <div class="vertical-title">Web Developer</div>
+                        <div class="vertical-desc text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eligendi accusamus, quos minima consequuntur ipsa sint hic. Natus aspernatur, eligendi autem
+                            earum pariatur quidem?</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- todo footer -->
+        <footer>
+            <div class="footer">
+                <div class="footer-container">
+                    <div class="footer-card">
+                        <div id="footer-title">Lakshay's Portfolio</div>
+                        <span id="footer-desc">MERN Stact Developer</span>
+                    </div>
+                    <div class="footer-card">
+                        <div id="footer-title">Connect With Me</div>
+                        <span id="footer-desc">
+                            <ul>
+                                <li>Github</li>
+                                <li>Linkedin</li>
+                                <li>myluckycharm</li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div class="footer-card">
+                        <div id="footer-title">Download Resume</div>
+                        <span id="footer-desc"><button>Click Me</button></span>
+                    </div>
+                </div>
+                <div class="rights text-grey">Website designed by Lakshay © 2023. All rights reserved.
+                </div>
+            </div>
+        </footer>
+
+        <!-- ! Javascript library Called typed Js CDN -->
+        <!-- Load library from the CDN -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- Setup and start animation! -->
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web Developer', 'Musician', '&amp; Video Editor'],
+                typeSpeed: 90,
+                loop: true
+            });
+        </script>
+        <!--todo Custom Javascript -->
+        <script src="script.js"></script>
+</body>
+
+</html>
